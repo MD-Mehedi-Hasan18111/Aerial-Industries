@@ -1,0 +1,22 @@
+body {
+  @include paragraph-font;
+}
+
+h1,
+h2,
+h3 {
+  @include heading-font;
+}
+h4,
+h5,
+h6,
+input {
+  @include heading-font;
+}
+
+button {
+  background-color: $orange;
+  border-color: $orange;
+  @include heading-font;
+  padding: 0.5rem 1rem;
+}
