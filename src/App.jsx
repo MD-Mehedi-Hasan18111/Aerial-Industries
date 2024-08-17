@@ -11,6 +11,7 @@ import EmailSignup from "./components/signup";
 const router = createBrowserRouter([
   {
     path: "/",
+    index: true,
     element: <Home />,
   },
   {
