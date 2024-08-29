@@ -11,7 +11,7 @@ import mediaLogosArray from "../assets/img/media-logo";
 const MasterHead = styled.section`
   position: relative;
   background-color: white;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
 `;
 
 const Subtitle = styled.h2`
@@ -199,6 +199,23 @@ export default function Home() {
 
   return (
     <MasterHead>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "end",
+          marginRight: "50px",
+        }}
+      >
+        <Button>
+          <a
+            href="https://main--aerial-industries-app.netlify.app/signup"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            Go to App
+          </a>
+        </Button>
+      </div>
       <Container>
         <Row>
           <Col md={{ size: 10, offset: 1 }}>
