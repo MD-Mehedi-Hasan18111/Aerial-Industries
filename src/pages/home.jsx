@@ -199,23 +199,6 @@ export default function Home() {
 
   return (
     <MasterHead>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "end",
-          marginRight: "50px",
-        }}
-      >
-        <Button>
-          <a
-            href="https://main--aerial-industries-app.netlify.app/signup"
-            style={{ textDecoration: "none", color: "#fff" }}
-          >
-            Go to App
-          </a>
-        </Button>
-      </div>
       <Container>
         <Row>
           <Col md={{ size: 10, offset: 1 }}>

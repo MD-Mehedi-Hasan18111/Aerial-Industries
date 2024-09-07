@@ -67,6 +67,23 @@ export default function MyNavbar() {
           </NavItem>
         </Nav>
       </Collapse>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "end",
+          marginRight: "50px",
+        }}
+      >
+        <Button>
+          <a
+            href="https://main--aerial-industries-app.netlify.app/signup"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            Go to App
+          </a>
+        </Button>
+      </div>
     </Navbar>
   );
 }
