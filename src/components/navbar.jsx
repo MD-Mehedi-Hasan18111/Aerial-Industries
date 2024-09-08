@@ -77,7 +77,7 @@ export default function MyNavbar() {
       >
         <Button>
           <a
-            href="https://main--aerial-industries-app.netlify.app/signup"
+            href="https://app.droneconduct.com"
             style={{ textDecoration: "none", color: "#fff" }}
           >
             Go to App
